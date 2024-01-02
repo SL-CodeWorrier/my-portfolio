@@ -35,7 +35,7 @@
 }
 .top-right ul{
     list-style: none;
-    display: flex;     /*eka line ekkata element eka hadan.*/
+    display: flex;
     height: 100%;
     justify-content: flex-end;
 }
