@@ -9,7 +9,6 @@ $(document).ready(function () {
         slidesData.eq(pointer).fadeIn(3000);
     }
 
-
     function next(){
         pointer++;
         if(pointer>=slidesData.length){
@@ -19,3 +18,5 @@ $(document).ready(function () {
     }
     setInterval(next, 3000);
 })
+
+
